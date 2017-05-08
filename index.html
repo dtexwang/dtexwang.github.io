@@ -13,18 +13,19 @@
     
     <title>David T. Wang | Graduate Student, MIT/WHOI</title>
     
-    <link rel="icon" href="{{site.baseurl}}/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" media="only screen and (min-width : 1000px)" href="{{site.baseurl}}/style/960_24_col.css" />
-    <link rel="stylesheet" media="all" href="{{site.baseurl}}/style/reset.css" />
-    <link rel="stylesheet" media="all" href="{{site.baseurl}}/style/vanilla-unreset.css" />
-    <link rel="stylesheet" media="all" href="{{site.baseurl}}/style/dtwstyle.css" />
-    <link rel="stylesheet" media="all" href="{{site.baseurl}}/style/fonts/fonts.css" />
+	{% include base.html %}
+    <link rel="icon" href="{{base}}/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" media="only screen and (min-width : 1000px)" href="{{base}}/style/960_24_col.css" />
+    <link rel="stylesheet" media="all" href="{{base}}/style/reset.css" />
+    <link rel="stylesheet" media="all" href="{{base}}/style/vanilla-unreset.css" />
+    <link rel="stylesheet" media="all" href="{{base}}/style/dtwstyle.css" />
+    <link rel="stylesheet" media="all" href="{{base}}/style/fonts/fonts.css" />
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{site.baseurl}}/style/academicons-1.7.0/css/academicons.css" />
+    <link rel="stylesheet" href="{{base}}/style/academicons-1.7.0/css/academicons.css" />
     
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script type="text/javascript" src="{{site.baseurl}}/style/toggle.js"></script>
-<!--     <script type="text/javascript" src="{{site.baseurl}}/style/Hyphenator.js"></script> -->
+    <script type="text/javascript" src="{{base}}/style/toggle.js"></script>
+<!--     <script type="text/javascript" src="{{base}}/style/Hyphenator.js"></script> -->
 
     
 </head>
@@ -63,13 +64,13 @@
             <p><a class="showhidebutton" style="cursor:pointer; cursor:hand;" onclick="toggle_visibility('res-photos');">[SHOW/HIDE PHOTOS]</a></p>
             <div class="photogrid" id="res-photos">
                 <div class="imghovercaption"> 
-                    <a> <img src="{{site.baseurl}}/files/images/IMG_5023_crop.JPG" alt="nighttime deck operations" /> <span>nighttime deck ops, <i>Kilo Moana</i>, Eq. Pacific</span> </a>
+                    <a> <img src="{{base}}/files/images/IMG_5023_crop.JPG" alt="nighttime deck operations" /> <span>nighttime deck ops, <i>Kilo Moana</i>, Eq. Pacific</span> </a>
                 </div>
                 <div class="imghovercaption"> 
-                    <a> <img src="{{site.baseurl}}/files/images/gb-laclede.jpg" alt="outcrop of the Green River Fm." /> <span>Green River Fm., Washakie Basin, Wyoming (photo by A. Close)</span> </a>
+                    <a> <img src="{{base}}/files/images/gb-laclede.jpg" alt="outcrop of the Green River Fm." /> <span>Green River Fm., Washakie Basin, Wyoming (photo by A. Close)</span> </a>
                 </div>
                 <div class="imghovercaption">  
-                    <a> <img src="{{site.baseurl}}/files/images/DSC00275_crop.JPG" alt="Fayetteville Green Lake" /> <span>Green Lake, New York (photo by T. Bosak)</span> </a>
+                    <a> <img src="{{base}}/files/images/DSC00275_crop.JPG" alt="Fayetteville Green Lake" /> <span>Green Lake, New York (photo by T. Bosak)</span> </a>
                 </div>      
             </div>
         
@@ -88,12 +89,12 @@
                         2016 // <a href="http://dx.doi.org/10.1016/j.gca.2016.07.031">Geochimica et Cosmochimica Acta</a>, 192, 186&ndash;202.
                     </li>
                     <li id="Inagaki++_2016_SD">
-                        IODP Expedition 337: Deep Coalbed Biosphere off Shimokita &mdash; Microbial processes and hydrocarbon system associated with deeply buried coalbed in the ocean. <a href="{{site.baseurl}}/files/pubs/Inagaki++_2016_SD.pdf"><i class="icon-file-text-alt"></i></a> <br />
+                        IODP Expedition 337: Deep Coalbed Biosphere off Shimokita &mdash; Microbial processes and hydrocarbon system associated with deeply buried coalbed in the ocean. <a href="{{base}}/files/pubs/Inagaki++_2016_SD.pdf"><i class="icon-file-text-alt"></i></a> <br />
                         <div class="authors">Inagaki F, Hinrichs K-U, Kubo Y, and <u>the IODP Expedition 337 Scientists</u></div>
                         2016 // <a href="http://dx.doi.org/10.5194/sd-21-17-2016">Scientific Drilling</a>, 21, 17&ndash;28.
                     </li>                
                     <li id="Luo++_2016_SAdv">
-                        Rapid oxygenation of Earth's atmosphere 2.33 billion years ago. <a href="{{site.baseurl}}/files/pubs/Luo++_2016_SAdv.pdf"><i class="icon-file-text-alt"></i></a> <br />
+                        Rapid oxygenation of Earth's atmosphere 2.33 billion years ago. <a href="{{base}}/files/pubs/Luo++_2016_SAdv.pdf"><i class="icon-file-text-alt"></i></a> <br />
                         <div class="authors">Luo G, Ono S, Beukes NJ, <u>Wang DT</u>, Xie S, and Summons RE </div>
                         2016 // <a href="http://dx.doi.org/10.1126/sciadv.1600134">Science Advances</a>, 2, e1600134.
                     </li>
@@ -108,12 +109,12 @@
                         2015 // <a href="http://dx.doi.org/10.1126/science.aaa4326">Science</a>, 348, 428&ndash;431.
                     </li>
                     <li id="Ono++_2014_AC">
-                        Measurement of a doubly-substituted methane isotopologue, <sup>13</sup>CH<sub>3</sub>D, by tunable infrared laser direct absorption spectroscopy. <a href="{{site.baseurl}}/files/pubs/Ono++_2014_AC.pdf"><i class="icon-file-text-alt"></i></a> <br />
+                        Measurement of a doubly-substituted methane isotopologue, <sup>13</sup>CH<sub>3</sub>D, by tunable infrared laser direct absorption spectroscopy. <a href="{{base}}/files/pubs/Ono++_2014_AC.pdf"><i class="icon-file-text-alt"></i></a> <br />
                         <div class="authors">Ono S, <u>Wang DT</u>, Gruen DS, Sherwood Lollar B, Zahniser M, McManus BJ, and Nelson DD </div>
                         2014 // <a href="http://dx.doi.org/10.1021/ac5010579">Analytical Chemistry</a>, 86, 6487&ndash;6494. 
                     </li>
                     <li id="Sim++_2014_FMicro">
-                        Fractionation of sulfur isotopes by <em>Desulfovibrio vulgaris</em> mutants lacking hydrogenases or type I tetraheme cytochrome c<sub>3</sub>. <a href="{{site.baseurl}}/files/pubs/Sim++_2013_FMicro.pdf"><i class="icon-file-text-alt"></i></a> <br />
+                        Fractionation of sulfur isotopes by <em>Desulfovibrio vulgaris</em> mutants lacking hydrogenases or type I tetraheme cytochrome c<sub>3</sub>. <a href="{{base}}/files/pubs/Sim++_2013_FMicro.pdf"><i class="icon-file-text-alt"></i></a> <br />
                         <div class="authors">Sim MS, <u>Wang DT</u>, Zane GM, Wall JD, Bosak T, and Ono S</div>
                         2013 // <a href="http://dx.doi.org/10.3389/fmicb.2013.00171">Frontiers in Microbiology</a>, 4, 171.
                     </li>
@@ -164,7 +165,7 @@
            
         <div class="content grid_15 omega" id="teaching">
             <h2>instruction<i class="icon-book pull-right icon-muted"></i></h2>
-            <p>12.104 (MIT) - Fall 2014 - Geochemistry of the Earth and Planets - TA <a href="{{site.baseurl}}/12.104/"><i class="icon-link"></i></a> </p>
+            <p>12.104 (MIT) - Fall 2014 - Geochemistry of the Earth and Planets - TA <a href="{{base}}/12.104/"><i class="icon-link"></i></a> </p>
             <p class="toplink"><a href="#top"><span style="font-size: 10px">TOP</span> &uarr;</a></p>
         </div>
 <!--          
@@ -213,11 +214,11 @@
         </div>
         
 <!--         <div class="imghovercaption">  
-            <a> <img src="{{site.baseurl}}/files/images/sr-crop.jpg" alt="in the Snowy Range, Wyoming" style="max-width: 258px; padding: 5px; border: 1px solid #DBDBDB;" /> <span style="color: #778;">Medicine Bow Mountains, Wyoming</span> </a>
+            <a> <img src="{{base}}/files/images/sr-crop.jpg" alt="in the Snowy Range, Wyoming" style="max-width: 258px; padding: 5px; border: 1px solid #DBDBDB;" /> <span style="color: #778;">Medicine Bow Mountains, Wyoming</span> </a>
         </div> -->
         
         <div class="imghovercaption">  <!-- http://stackoverflow.com/questions/15856556/image-captions-on-hover -->
-            <a> <img src="{{site.baseurl}}/files/images/headshot.jpg" alt="with DSV Alvin pre-upgrade" style="max-width: 258px; padding: 5px; border: 1px solid #DBDBDB;" /> </a>
+            <a> <img src="{{base}}/files/images/headshot.jpg" alt="with DSV Alvin pre-upgrade" style="max-width: 258px; padding: 5px; border: 1px solid #DBDBDB;" /> </a>
         </div>
         
         <div class="nav" style="color:#778;">  

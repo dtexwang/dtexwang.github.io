@@ -19,13 +19,14 @@
 # When referencing JS or CSS files, do it like this: {{site.baseurl}}/path/to/css.css – note the slash immediately following the variable (just before “path”).
 # When doing permalinks or internal links, do it like this: {{site.baseurl}}{{ post.url }} – note that there is no slash between the two variables.
 # Finally, if you’d like to preview your site before committing/deploying using jekyll serve, be sure to pass an empty string to the --baseurl option, so that you can view everything at localhost:4000 normally (without /project-name at the beginning):  jekyll serve --baseurl ''
-# baseurl: '/dtexwang.github.io'
-{% assign relative-baseurl = "" %}
-{% assign canon = page.url | append: "page.html" | split: "/" %}
-{% for item in canon offset:2 %}
-  {% assign relative-baseurl = relative-baseurl | append:"../" %}
-{% endfor %}
-{{ relative-baseurl }}
+baseurl: '/dtexwang.github.io'
+# https://github.com/jekyll/jekyll/issues/332#issuecomment-72088429
+# {% assign relative-baseurl = "" %}
+# {% assign canon = page.url | append: "page.html" | split: "/" %}
+# {% for item in canon offset:2 %}
+  # {% assign relative-baseurl = relative-baseurl | append:"../" %}
+# {% endfor %}
+# {{ relative-baseurl }}
 # 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
 # url: http://yourdomain.com/

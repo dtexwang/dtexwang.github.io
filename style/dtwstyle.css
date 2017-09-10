@@ -110,17 +110,17 @@ div.navbox {
 }
 
 .content ul, ol {
-    margin:10px 0 0 3em;
+    margin:10px 0 0 2em;
 }
 
 .content ol li{
-    margin-top: 10px;
-/*     padding-left: 1em;
-    text-indent: -1em; */
+    margin-top: 4px;
+    padding-left: 1em;
+    text-indent: 0em;
 }
 
 .authors {
-    color: #778;
+    /* color: #778; */
 }
 
 #deliverables * u {    

@@ -20,16 +20,30 @@
 	a.doi, a.info { background:inherit; }
 	a:hover { border: 1px solid #000; }
 	
-	@media screen and (max-width: 900px){
+	@media screen and (max-width: 600px){
 	  body{
+		background-color: blue;
+	    text-size-adjust: 100%;
 		-webkit-text-size-adjust: 100%;
+		-ms-text-size-adjust:100%;
+		width:100%;
+		max-width:300px;
+	  }
+	}
+	
+	@media screen and (min-width: 600px){
+	  body{
+		background-color:#FAF9F6;
+		max-width:900px;
+	    text-size-adjust: none;
+		-webkit-text-size-adjust: none;
 		-ms-text-size-adjust:100%;
 		width:100%;
 	  }
 	}
 
 	body{
-		margin: 0px 10pt; max-width:900px;
+		margin: 0px 10pt; 
 		
 		}
 
@@ -68,11 +82,15 @@
 	}
 	
 	ol {
-		padding-left: 2em;
+		padding-left: 4em;
+	}
+	
+	ul {
+		padding-left: 4em;
 	}
 	
 	.titleblock {
-		font-size: 12pt;
+		font-size: 1.5em;
 	}
 	
 	.titleblock * { font-size: inherit; }
@@ -86,19 +104,19 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+	<meta name=”viewport” content=”width=device-width, initial-scale=1.0, minimum-scale=1.0″>
 	<title> David T. Wang </title>
 </head>
 
 <body>
 	
-<table cellpadding=10pt style='margin-left:-11pt'>
+<table cellpadding="10pt" style="margin-left:-11pt; width=90%">
 <tr>
 <td>		
 <img src="./files/images/headshot_crop.jpg" alt="David's photo" style="width: 100px; padding: 2px; border: 1px solid #DBDBDB;" /> 
 </td>
 <td>
-<div class="titleblock"><b style="font-size:12pt"> David T. Wang </b> | Geochemist & Engineer </div> <br />
+<div class="titleblock"><b> David T. Wang </b> | Geochemist & Engineer </div> <br />
 
 [<a class="info" href="http://www.linkedin.com/in/dtexwang" title="LinkedIn profile">LinkedIn</a>] 
 [<a class="info" href="https://scholar.google.com/citations?user=dzEbsPkAAAAJ&hl=en" title="Scholar profile">Google Scholar</a>]
